@@ -14,9 +14,12 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+var me = {
+  name: "Joe Webb",
+  age: 25
+}
 
-
+//alert(me.name)
 
 ////////// PROBLEM 2 //////////
 
@@ -26,7 +29,14 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band: "Slayer",
+  food: "Tacos",
+  person: "Zach Springer",
+  book: "Life 3.0",
+  movie: "LOTR",
+  holiday: "None"
+}
 
 
 /*
@@ -34,14 +44,16 @@
 */
 
 //Code here
-
+favoriteThings.car = "BMW"
+favoriteThings.brand = "Not-Apple"
 
 
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
 
 
 
@@ -56,6 +68,11 @@
 */
 
 //Code here
+var backPack = { };
+var item = "firstPocket"
+
+backPack[item]= 'chapstick'
+backPack.color = "black";
 
 
 
@@ -64,6 +81,7 @@
 */
 
 //Code here
+// alert(backPack)
 
 
 
@@ -73,7 +91,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
 */
 
-//Code here
+console.log(backPack)
 
 
 
@@ -97,7 +115,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = "Tyler S. McGinnis"
+user2.email = "tyler.mcginnis@devmounta.in"
 
 
 
